@@ -70,7 +70,6 @@ style "menubar-text" {
   }
 }
 
-
 style "toolbar_text" {
   fg[NORMAL] = "#afb8c5"
   fg[PRELIGHT] = "#afb8c5"
@@ -127,8 +126,8 @@ style "toolbar_button" {
 
 style "toolbar_entry" {
 
-  base[NORMAL] = "#404552"
-  base[ACTIVE] = "#404552"
+  base[NORMAL] = "#3c3836"
+  base[ACTIVE] = "#3c3836"
   base[INSENSITIVE] = "#39404d"
 
   text[NORMAL] = "#afb8c5"
@@ -219,4 +218,3 @@ widget_class "*ThunarWindow*<GtkToolbar>*<GtkEntry>"                        styl
 widget_class "*ThunarWindow*<GtkToolbar>*<GtkButton>"                       style "toolbar_button"
 widget_class "*ThunarWindow*<GtkToolbar>*<GtkWidget>"                       style "toolbar_text"
 widget_class "*ThunarWindow*<GtkToolbar>*<GtkButton>*<GtkLabel>"            style "menubar-text"
-

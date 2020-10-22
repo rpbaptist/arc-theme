@@ -196,7 +196,7 @@ $disk_space_free: darken($bg_color, 3%);
   scrolledwindow.sidebar treeview.view {
     background: $dark_sidebar_bg;
     color: $dark_sidebar_fg;
-    
+
     &:selected, &:active {
       background: $selected_bg_color;
       color: $selected_fg_color;
@@ -845,7 +845,7 @@ panel-toplevel.background {
     background-color: transparent;
 
   .title, .label {
-    color: #5c616c;
+    color: #282828;
   }
 }
 
