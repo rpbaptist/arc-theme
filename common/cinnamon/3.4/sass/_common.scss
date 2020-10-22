@@ -151,9 +151,9 @@ StScrollBar {
 .slider {
   -slider-height: 4px;
   -slider-background-color: $button_border;                   //background of the trough
-  -slider-border-color: transparentize(black, 1);             //trough border color
+  -slider-border-color: transparentize(#1d2021, 1);             //trough border color
   -slider-active-background-color: $selected_bg_color;        //active trough fill
-  -slider-active-border-color: transparentize(black, 1);      //active trough border
+  -slider-active-border-color: transparentize(#1d2021, 1);      //active trough border
   -slider-border-width: 0;
   -slider-handle-radius: 4px;
   height: 18px;
@@ -164,7 +164,7 @@ StScrollBar {
   color: transparent;
 
   .popup-menu-item:active & {
-    -slider-background-color: transparentize(black, 0.8);
+    -slider-background-color: transparentize(#1d2021, 0.8);
     -slider-active-background-color: $selected_fg_color;
   }
 }
@@ -438,7 +438,7 @@ StScrollBar {
     -natural-hpadding: 6px;
     -minimum-hpadding: 2px;
     font-weight: bold;
-    color: green;
+    color: #98971a;
     transition-duration: 100;
 
     &:hover {}
@@ -592,7 +592,7 @@ StScrollBar {
   }
   &-uuid {
     font-size: 10px;
-    color: #888;
+    color: #928374;
   }
   &-icon {
     padding-right: 20px;
@@ -618,7 +618,7 @@ StScrollBar {
   &-version {
     padding-left: 7px;
     font-size: 10px;
-    color: #888;
+    color: #928374;
   }
 }
 
@@ -1050,7 +1050,7 @@ StScrollBar {
   background-color: $osd_bg_color;
   border-width: 0;
   border-top-width: 1px;
-  border-color: transparentize(black, 0.6);
+  border-color: transparentize(#1d2021, 0.6);
 }
 
 .keyboard-layout {
@@ -1084,7 +1084,7 @@ StScrollBar {
   -arrow-border-radius: 2px;
   -arrow-background-color: $osd_bg_color;
   -arrow-border-width: 1px;
-  -arrow-border-color: transparentize(black, 0.6);;
+  -arrow-border-color: transparentize(#1d2021, 0.6);;
   -arrow-base: 20px;
   -arrow-rise: 10px;
   -boxpointer-gap: 5px;
@@ -1239,7 +1239,7 @@ StScrollBar {
   .level {
     padding: 0;
     height: 4px;
-    background-color: transparentize(black, 0.5);
+    background-color: transparentize(#1d2021, 0.5);
     border-radius: 2px;
     color: $selected_bg_color;
   }
@@ -1412,9 +1412,9 @@ StScrollBar {
 }
 
 .workspace-graph .workspace {
-  border: 1px solid transparentize(black, 0.6);
+  border: 1px solid transparentize(#1d2021, 0.6);
   background-gradient-direction: none;
-  background-color: transparentize(black, 0.8);
+  background-color: transparentize(#1d2021, 0.8);
 }
 
 .workspace-graph .workspace:active {

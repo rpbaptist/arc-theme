@@ -96,7 +96,7 @@ EelEditableLabel.entry { transition: none; }  // Workaround for invisible text i
 
 .nautilus-desktop.nautilus-canvas-item {
   color: #f9f5d7;
-  text-shadow: 1px 1px transparentize(black, 0.4);
+  text-shadow: 1px 1px transparentize(#1d2021, 0.4);
 
   &:active { color: $fg_color; }
   &:selected { color: $selected_fg_color; }
@@ -294,7 +294,7 @@ GeditFileBrowserWidget .toolbar {
 }
 
 .gedit-map-frame {
-  @if $variant!='dark' { border-color: transparentize(black, 0.7); }
+  @if $variant!='dark' { border-color: transparentize(#1d2021, 0.7); }
 }
 
 .gedit-search-entry-occurrences-tag {
@@ -553,17 +553,17 @@ PanelApplet .button, PanelApplet .button:backdrop {
 
 PanelApplet .button:hover {
   color: lighten($panel_fg, 10%);
-  background-color: transparentize(black, 0.83);
-  border-color: transparentize(black, 0.83);
+  background-color: transparentize(#1d2021, 0.83);
+  border-color: transparentize(#1d2021, 0.83);
 }
 
 PanelApplet .button:active, PanelApplet .button:active:backdrop,
 PanelApplet .button:checked, PanelApplet .button:checked:backdrop {
   background-clip: padding-box;
   color: #f9f5d7;
-  background-color: transparentize(black, 0.75);
+  background-color: transparentize(#1d2021, 0.75);
   border-radius: 0;
-  border-color: transparentize(black, 0.75);
+  border-color: transparentize(#1d2021, 0.75);
   box-shadow: inset 0 -2px $selected_bg_color;
 }
 
@@ -701,8 +701,8 @@ MarlinViewWindow {
   background-color: transparent;
   color: #f9f5d7;
   font-weight: bold;
-  text-shadow: 0 1px 2px transparentize(black, 0.4);
-  icon-shadow: 0 1px 2px transparentize(black, 0.4);
+  text-shadow: 0 1px 2px transparentize(#1d2021, 0.4);
+  icon-shadow: 0 1px 2px transparentize(#1d2021, 0.4);
 
   .maximized {
     background-color: $panel_bg;
@@ -724,9 +724,9 @@ MarlinViewWindow {
 
     .window-frame.menu.csd,
     .window-frame.popup.csd {
-      box-shadow: 0 0 0 1px transparentize(black, 0.8),
-                  0 10px 20px transparentize(black, 0.81),
-                  0 6px 6px transparentize(black, 0.77);
+      box-shadow: 0 0 0 1px transparentize(#1d2021, 0.8),
+                  0 10px 20px transparentize(#1d2021, 0.81),
+                  0 6px 6px transparentize(#1d2021, 0.77);
     }
   }
   .menubar > .menuitem {
@@ -740,8 +740,8 @@ MarlinViewWindow {
 .composited-indicator {
   background-color: transparent;
   color: #f9f5d7;
-  text-shadow: 0 1px 2px transparentize(black, 0.4);
-  icon-shadow: 0 1px 2px transparentize(black, 0.4);
+  text-shadow: 0 1px 2px transparentize(#1d2021, 0.4);
+  icon-shadow: 0 1px 2px transparentize(#1d2021, 0.4);
 
   > GtkWidget > GtkWidget:first-child { padding: 0 2px; }
 
@@ -756,10 +756,10 @@ MarlinViewWindow {
   }
 
   .color-light & {
-    color: transparentize(black, 0.35);
+    color: transparentize(#1d2021, 0.35);
 
-    text-shadow: 0 0 2px transparentize(white, 0.7), 0 1px 0 transparentize(white, 0.75);
-    icon-shadow: 0 0 2px transparentize(white, 0.7), 0 1px 0 transparentize(white, 0.75);
+    text-shadow: 0 0 2px transparentize(#f9f5d7, 0.7), 0 1px 0 transparentize(#f9f5d7, 0.75);
+    icon-shadow: 0 0 2px transparentize(#f9f5d7, 0.7), 0 1px 0 transparentize(#f9f5d7, 0.75);
   }
 }
 

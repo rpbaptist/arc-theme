@@ -337,8 +337,8 @@
 // top, bottom, right, left
 //
 
-  $_undershoot_color_dark: transparentize(black, 0.8);
-  $_undershoot_color_light: transparentize(white, 0.8);
+  $_undershoot_color_dark: transparentize(#1d2021, 0.8);
+  $_undershoot_color_light: transparentize(#f9f5d7, 0.8);
 
   $_gradient_dir: left;
   $_dash_bg_size: 10px 1px;

@@ -24,7 +24,7 @@ $warning_fg_color: #f9f5d7;
 $error_fg_color: #f9f5d7;
 $success_color: #98971a;
 $destructive_color: #fb4934;
-$suggested_color: #458588;
+$suggested_color: #928374;
 $destructive_fg_color: #f9f5d7;
 $suggested_fg_color: #f9f5d7;
 
@@ -87,7 +87,7 @@ $osd_entry_border: if($variant != 'lighter', transparentize(darken($osd_bg_color
 
 $osd_insensitive_bg_color: if($variant != 'lighter', darken($osd_bg_color, 3%), $insensitive_bg_color);
 $osd_insensitive_fg_color: if($variant != 'lighter', mix($osd_fg_color, opacify($osd_bg_color, 1), 30%), $insensitive_fg_color);
-$osd_borders_color: if($variant != 'lighter', transparentize(black, 0.3), transparentize(black, 0.83));
+$osd_borders_color: if($variant != 'lighter', transparentize(#1d2021, 0.3), transparentize(#1d2021, 0.83));
 
 //WM Buttons
 
@@ -99,32 +99,32 @@ $wm_button_close_active_bg: if($variant == 'light' or $variant=='lighter', #f130
 $wm_icon_close_bg: if($variant == 'light' or $variant=='lighter', #fbf1c7 , #282828);
 
 // Minimize, Maximize
-$wm_button_hover_bg: if($variant == 'light' or $variant=='lighter', #fdfdfd, #3c3836);
+$wm_button_hover_bg: if($variant == 'light' or $variant=='lighter', #f9f5d7, #3c3836);
 $wm_button_active_bg: $selected_bg_color;
 
-$wm_button_hover_border: if($variant == 'light' or $variant=='lighter', #D1D3DA, #32302f);
+$wm_button_hover_border: if($variant == 'light' or $variant=='lighter', #ebdbb2, #32302f);
 
-$wm_icon_bg: if($variant == 'light' or $variant=='lighter', #90949E, #90939B);
-$wm_icon_unfocused_bg: if($variant == 'light' or $variant=='lighter', #B6B8C0, #666A74);
-$wm_icon_hover_bg: if($variant == 'light' or $variant=='lighter', #7A7F8B, #ebdbb2);
+$wm_icon_bg: if($variant == 'light' or $variant=='lighter', #bdae93, #665c54);
+$wm_icon_unfocused_bg: if($variant == 'light' or $variant=='lighter', #d5c4a1, #504945);
+$wm_icon_hover_bg: if($variant == 'light' or $variant=='lighter', #ebdbb2, #ebdbb2);
 $wm_icon_active_bg: $selected_fg_color;
 
 //GNOME Shell colors
 
-$shell_osd_background_color: if($transparency == 'true', transparentize(#252A35, 0.05), #252A35);
-$shell_osd_border_color: if($transparency == 'true', transparentize(#0F1116, 0.15), #0F1116);
+$shell_osd_background_color: if($transparency == 'true', transparentize(#3c3836, 0.05), #3c3836);
+$shell_osd_border_color: if($transparency == 'true', transparentize(#282828, 0.15), #282828);
 @if $variant == 'lighter' {
-  $shell_osd_background_color: if($transparency == 'true', transparentize(white, 0.05), white);
-  $shell_osd_border_color: if($transparency == 'true', transparentize(darken(white, 10%), 0.15), darken(white, 10%));
+  $shell_osd_background_color: if($transparency == 'true', transparentize(#f9f5d7, 0.05), white);
+  $shell_osd_border_color: if($transparency == 'true', transparentize(darken(#f9f5d7, 10%), 0.15), darken(#f9f5d7, 10%));
 }
 
-$shell_bg_border_color: if($variant!='lighter', rgba(#161A26, 0.81), rgba(black, 0.1));
+$shell_bg_border_color: if($variant!='lighter', rgba(#161A26, 0.81), rgba(#1d2021, 0.1));
 
 $shell_modal_background_color: if($variant!='dark', $bg_color, #323644);
-$shell_modal_border_color: if($variant!='dark', rgba(black, 0.1), rgba(black, 0.64));
+$shell_modal_border_color: if($variant!='dark', rgba(#1d2021, 0.1), rgba(#1d2021, 0.64));
 
 $shell_popup_menu_background_color: if($variant!='dark', white, $bg_color);
-$shell_popup_menu_border_color: if($variant!='dark', rgba(black, 0.1), rgba(#1B1C21, 0.83));
+$shell_popup_menu_border_color: if($variant!='dark', rgba(#1d2021, 0.1), rgba(#1B1C21, 0.83));
 
-$shell_message_background_color: if($variant != 'dark', #FCFDFD, rgba(black, 0.15));
-$shell_message_border_color: if($variant != 'dark', $entry_border, rgba(black, 0.42));
+$shell_message_background_color: if($variant != 'dark', #FCFDFD, rgba(#1d2021, 0.15));
+$shell_message_border_color: if($variant != 'dark', $entry_border, rgba(#1d2021, 0.42));

@@ -893,7 +893,7 @@ GtkComboBox {
   background-color: $bg_color;
   .osd &, &.osd {
     padding: 7px;
-    border: 1px solid transparentize(black, 0.5);
+    border: 1px solid transparentize(#1d2021, 0.5);
     border-radius: 3px;
     background-color: transparentize($osd_bg_color, 0.1);
   }
@@ -1359,7 +1359,7 @@ GtkTreeView.view {                                      // treeview grid lines a
   -GtkTreeView-expander-size: 16;
 
   border-left-color: transparentize($fg_color, 0.85);   // this is actually the tree lines color,
-  border-top-color: transparentize(black, 0.9);         // while this is the grid lines color, better then nothing
+  border-top-color: transparentize(#1d2021, 0.9);         // while this is the grid lines color, better then nothing
 
   &.rubberband { @extend .rubberband; }                 // to avoid borders being overridden by the previously set props
 
@@ -1419,7 +1419,7 @@ GtkTreeView.view {                                      // treeview grid lines a
 
     &:selected, &:selected:focus {
       color: $selected_fg_color;
-      background-image: linear-gradient(to bottom, transparentize(black, 0.8));
+      background-image: linear-gradient(to bottom, transparentize(#1d2021, 0.8));
       border-radius: 3px;
       border-width: 0;
     }
@@ -1572,7 +1572,7 @@ column-header.button.dnd { // for treeview-like derive widgets
   background-clip: border-box;
   background-color: if($variant!='dark', $base_color, $bg_color);
 
-  box-shadow: 0 2px 6px 1px if($variant!='dark', transparentize(black, 0.93), transparentize(black, 0.65));
+  box-shadow: 0 2px 6px 1px if($variant!='dark', transparentize(#1d2021, 0.93), transparentize(#1d2021, 0.65));
 
   & .separator { color: transparentize($base_color, 1); }
   .label.separator { @extend .label.separator; } // Noice
@@ -1790,7 +1790,7 @@ $_scrollbar_bg_color: darken($base_color, 1%);
       .slider {
         margin: 0;
         background-color: mix($fg_color, $bg_color, 70%);
-        border: 1px solid if($variant != 'dark', transparentize(white, 0.4), transparentize(black, 0.7));
+        border: 1px solid if($variant != 'dark', transparentize(#f9f5d7, 0.4), transparentize(#1d2021, 0.7));
         background-clip: padding-box;
       }
 
@@ -2104,14 +2104,14 @@ GtkCheckButton.text-button, GtkRadioButton.text-button {
     .menu .menuitem:hover &,
     .list-row:selected &,
     GtkInfoBar & {
-      background-image: linear-gradient(to bottom, transparentize(black, 0.8));
+      background-image: linear-gradient(to bottom, transparentize(#1d2021, 0.8));
 
       &.highlight {
         background-image: linear-gradient(to bottom, $selected_fg_color);
 
         &:insensitive { background-image: linear-gradient(to bottom, mix($selected_fg_color, $selected_bg_color, 55%)); }
       }
-      &:insensitive { background-image: linear-gradient(to bottom, transparentize(black, 0.9)); }
+      &:insensitive { background-image: linear-gradient(to bottom, transparentize(#1d2021, 0.9)); }
     }
   }
 }
@@ -2163,7 +2163,7 @@ GtkProgressBar.trough {
     box-shadow: none;
   }
   .list-row:selected &,
-  GtkInfoBar & { background-color: transparentize(black, 0.8); }
+  GtkInfoBar & { background-color: transparentize(#1d2021, 0.8); }
 }
 
 //
@@ -2235,7 +2235,7 @@ GtkScrolledWindow {
 .separator {
   // always disable separators
   // -GtkWidget-wide-separators: true;
-  color: transparentize(black, 0.9);
+  color: transparentize(#1d2021, 0.9);
 
   // Font and File button separators
   GtkFileChooserButton &,
@@ -2263,14 +2263,14 @@ GtkScrolledWindow {
 .list-row.activatable {
   // let's take care of background colors
   &:hover {
-    background-color: if($variant != 'dark', transparentize(black, 0.95), transparentize(white, 0.97));
+    background-color: if($variant != 'dark', transparentize(#1d2021, 0.95), transparentize(#f9f5d7, 0.97));
   }
   &:active {
     color: $fg_color;
   }
   &:selected {
     &:active { color: $selected_fg_color; }
-    &:hover { background-color: mix(black, $selected_bg_color, 10%); }
+    &:hover { background-color: mix(#1d2021, $selected_bg_color, 10%); }
     &:insensitive {
       color: transparentize($selected_fg_color, 0.3);
       background-color: transparentize($selected_bg_color, 0.3);
@@ -2671,7 +2671,7 @@ GtkColorSwatch {
   // hover effect
   &:hover,
   &:hover:selected {
-    background-image: linear-gradient(to bottom, transparentize(white, 0.8));
+    background-image: linear-gradient(to bottom, transparentize(#f9f5d7, 0.8));
   }
 
   // no hover effect for the colorswatch in the color editor
@@ -2685,18 +2685,18 @@ GtkColorSwatch {
   // indicator and keynav outline colors, color-dark is a color with luminosity lower then 50%
   &.color-dark {
     color: #f9f5d7;
-    outline-color: transparentize(black, 0.7);
+    outline-color: transparentize(#1d2021, 0.7);
   }
   &.color-light {
     color: black;
-    outline-color: transparentize(white, 0.5);
+    outline-color: transparentize(#f9f5d7, 0.5);
   }
 
   // border color
   &.overlay,
   &.overlay:selected {
-    border: 1px solid transparentize(black, 0.85);
-    &:hover { border-color: transparentize(black, 0.75); }
+    border: 1px solid transparentize(#1d2021, 0.85);
+    &:hover { border-color: transparentize(#1d2021, 0.75); }
   }
 
   // make the add color button looks like, well, a button
@@ -2771,7 +2771,7 @@ GtkVolumeButton.button { padding: 8px; }
   border-radius: if($variant=='light' or $variant=='lighter', 4px 4px 0 0, 3px 3px 0 0);
   border-width: 0px;
 
-  $_wm_border: if($variant!='dark', transparentize(black, 0.9), transparentize(black, 0.45));
+  $_wm_border: if($variant!='dark', transparentize(#1d2021, 0.9), transparentize(#1d2021, 0.45));
 
   box-shadow: 0 0 0 1px if($variant=='dark' or $variant == 'darker', darken($header_bg, 7%), $_wm_border),
               0 8px 8px 0 if($variant != 'dark', opacify($_wm_border, 0.1), transparentize($_wm_border, 0.2));
@@ -2793,7 +2793,7 @@ GtkVolumeButton.button { padding: 8px; }
   // server-side decorations as used by mutter
   &.ssd {
     border-radius: if($variant=='light' or $variant=='lighter', 4px 4px 0 0, 3px 3px 0 0);
-    box-shadow: 0 0 0 1px if($variant=='dark' or $variant == 'darker', transparentize(black, 0.35), $_wm_border);
+    box-shadow: 0 0 0 1px if($variant=='dark' or $variant == 'darker', transparentize(#1d2021, 0.35), $_wm_border);
 
     &.maximized { border-radius: 0; }
   }

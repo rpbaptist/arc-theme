@@ -151,11 +151,11 @@ StScrollBar {
 .slider {
   -barlevel-height: 4px;
   -barlevel-background-color: $button_border;                   //background of the trough
-  -barlevel-border-color: transparentize(black, 1);             //trough border color
+  -barlevel-border-color: transparentize(#1d2021, 1);             //trough border color
   -barlevel-active-background-color: $selected_bg_color;        //active trough fill
-  -barlevel-active-border-color: transparentize(black, 1);      //active trough border
+  -barlevel-active-border-color: transparentize(#1d2021, 1);      //active trough border
   -barlevel-overdrive-color: $warning_color;
-  -barlevel-overdrive-border-color: transparentize(black, 1);
+  -barlevel-overdrive-border-color: transparentize(#1d2021, 1);
   -barlevel-overdrive-separator-width: 1px;
   -barlevel-border-width: 0;
   -slider-handle-radius: 0px;
@@ -166,7 +166,7 @@ StScrollBar {
   color: $selected_bg_color;
 
   .popup-menu-item.selected & {
-    -barlevel-background-color: transparentize(black, 0.8);
+    -barlevel-background-color: transparentize(#1d2021, 0.8);
     -barlevel-active-background-color: $selected_fg_color;
     color: $selected_fg_color;
   }
@@ -550,7 +550,7 @@ StScrollBar {
 }
 
 .hidden {
-  color: transparentize(black, 1);
+  color: transparentize(#1d2021, 1);
 }
 
 //
@@ -742,7 +742,7 @@ StScrollBar {
   -arrow-border-radius: 2px;
   -arrow-background-color: $osd_bg_color;
   -arrow-border-width: 1px;
-  -arrow-border-color: transparentize(black, 0.6);
+  -arrow-border-color: transparentize(#1d2021, 0.6);
   -arrow-base: 20px;
   -arrow-rise: 10px;
 }
@@ -792,7 +792,7 @@ StScrollBar {
     padding: 0;
     height: 4px;
     -barlevel-height: 4px;
-    -barlevel-background-color: if($variant!='lighter', transparentize(black, 0.5), $button_border);
+    -barlevel-background-color: if($variant!='lighter', transparentize(#1d2021, 0.5), $button_border);
     -barlevel-active-background-color: $selected_bg_color;
     -barlevel-overdrive-color: $warning_color;
     -barlevel-overdrive-separator-width: 1px;
@@ -952,8 +952,8 @@ StScrollBar {
 
 .ws-switcher-box {
   height: 64px;
-  background-color: if($variant!='lighter', transparentize(black, 0.67), transparentize(black, 0.83));
-  border: 1px solid if($variant!='lighter', transparentize(black, 0.67), transparentize(black, 0.83));
+  background-color: if($variant!='lighter', transparentize(#1d2021, 0.67), transparentize(#1d2021, 0.83));
+  border: 1px solid if($variant!='lighter', transparentize(#1d2021, 0.67), transparentize(#1d2021, 0.83));
   border-radius: 2px;
 }
 
@@ -1028,7 +1028,7 @@ StScrollBar {
 
   .panel-corner {
     -panel-corner-radius: $panel-corner-radius;
-    -panel-corner-background-color: transparentize(black, 1);
+    -panel-corner-background-color: transparentize(#1d2021, 1);
     -panel-corner-border-width: 0px;
     -panel-corner-border-color: black;
 
@@ -1068,7 +1068,7 @@ StScrollBar {
 
     &:hover {
       color: $_panel_fg_color;
-      background-color: if($variant!='lighter', transparentize(black, 0.83), transparentize(black, 0.95));
+      background-color: if($variant!='lighter', transparentize(#1d2021, 0.83), transparentize(#1d2021, 0.95));
       border-bottom-width: 1px;
       border-color: transparent;
     }
@@ -1232,7 +1232,7 @@ StScrollBar {
 .events-section-title {
   padding: 7px 10px 7px 10px;
 
-  &:hover, &:focus { background-color: transparentize(black, 0.9); }
+  &:hover, &:focus { background-color: transparentize(#1d2021, 0.9); }
   &:active {
     background-color: $selected_bg_color;
     color: $selected_fg_color;
@@ -1365,11 +1365,11 @@ StScrollBar {
   border-radius: 1.6em;
   font-feature-settings: "tnum";
 
-  &:hover, &:focus { background-color: transparentize(black, 0.9); }
+  &:hover, &:focus { background-color: transparentize(#1d2021, 0.9); }
 
   &:active, &:selected {
     color: $fg_color;
-    background-color: transparentize(black, 0.85);
+    background-color: transparentize(#1d2021, 0.85);
     border-width: 0; //avoid jumparound due to today
   }
 
@@ -1727,7 +1727,7 @@ StScrollBar {
   width: 320px;
   padding: 7px 9px;
   border-radius: 20px;
-  border: 1px solid transparentize(black, 0.75);
+  border: 1px solid transparentize(#1d2021, 0.75);
   background-color: transparentize($entry_bg, 0.1);
   transition-duration: 0ms;
 
@@ -1777,7 +1777,7 @@ StScrollBar {
 .list-search-results { spacing: 3px; }
 
 .search-section-separator {
-  background-color: transparentize(white, 0.8);
+  background-color: transparentize(#f9f5d7, 0.8);
   height: 1px;
 
   .search-section:last-child & { background-color: transparent; }
@@ -1842,7 +1842,7 @@ StScrollBar {
   border-radius: 3px;
   padding: 4px 12px;
   color: $_shell_fg_color;
-  background-color: transparentize(black, 0.3);
+  background-color: transparentize(#1d2021, 0.3);
   border: 0;
   text-align: center;
   -x-offset: 3px;
@@ -1894,7 +1894,7 @@ StScrollBar {
   }
 
   .app-well-app.focused .overview-icon {
-    background-color: if($variant != 'lighter', transparentize(black, 0.75), transparentize(black, 0.85));
+    background-color: if($variant != 'lighter', transparentize(#1d2021, 0.75), transparentize(#1d2021, 0.85));
   }
 
   &.running-dots {
@@ -1932,7 +1932,7 @@ StScrollBar {
 .show-apps {
 
   .overview-icon {
-    background-color: if($variant!='lighter', transparentize(black, 0.5), transparentize(black, 0.8));
+    background-color: if($variant!='lighter', transparentize(#1d2021, 0.5), transparentize(#1d2021, 0.8));
     border-radius: 2px;
     border: 0px;
     padding: 6px;
@@ -1942,7 +1942,7 @@ StScrollBar {
   }
 
   &:hover .overview-icon {
-    background-color: if($variant!='lighter', transparentize(black, 0.3), transparentize(black, 0.9));
+    background-color: if($variant!='lighter', transparentize(#1d2021, 0.3), transparentize(#1d2021, 0.9));
     color: $selected_bg_color;
   }
 
@@ -2352,7 +2352,7 @@ StScrollBar {
   background-color: $osd_bg_color;
   border-width: 0;
   border-top-width: 1px;
-  border-color: transparentize(black, 0.8);
+  border-color: transparentize(#1d2021, 0.8);
 
   .page-indicator {
     padding: 4px 4px;
@@ -2425,7 +2425,7 @@ StScrollBar {
   -arrow-border-radius: 2px;
   -arrow-background-color: $osd_bg_color;
   -arrow-border-width: 1px;
-  -arrow-border-color: transparentize(black, 0.6);;
+  -arrow-border-color: transparentize(#1d2021, 0.6);;
   -arrow-base: 20px;
   -arrow-rise: 10px;
   -boxpointer-gap: 5px;
@@ -2665,7 +2665,7 @@ StScrollBar {
 
 .screen-shield-background { //just the shadow, really
   background: black;
-  box-shadow: 0px 2px 4px transparentize(black,0.6);
+  box-shadow: 0px 2px 4px transparentize(#1d2021,0.6);
 }
 
 #lockDialogGroup {
@@ -2782,7 +2782,7 @@ StScrollBar {
 }
 
 #LookingGlassPropertyInspector {
-  background: transparentize(black, 0.3);
+  background: transparentize(#1d2021, 0.3);
   border: 1px solid grey;
   border-radius: 2px;
   color: $_shell_fg_color;

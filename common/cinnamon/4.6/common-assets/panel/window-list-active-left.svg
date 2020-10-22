@@ -61,7 +61,7 @@
      guidetolerance="10000"
      borderlayer="true"
      showborder="true"
-     guidecolor="#ff0b00"
+     guidecolor="#cc241d"
      guideopacity="1"
      guidehicolor="#001aff"
      guidehiopacity="0.49803922"
@@ -81,7 +81,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#928374;stop-opacity:1;"
          offset="0"
          id="stop4137" />
     </linearGradient>

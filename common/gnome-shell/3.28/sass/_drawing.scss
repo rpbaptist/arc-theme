@@ -41,21 +41,21 @@
     color: $osd_fg_color;
     background-color: $osd_entry_bg;
     border: 1px solid $osd_entry_border;
-    box-shadow: inset 0 2px 4px transparentize(black, 0.95);
+    box-shadow: inset 0 2px 4px transparentize(#1d2021, 0.95);
   }
 
   @if $t==osd-focus {
     color: $selected_fg_color;
     background-color: $selected_bg_color;
     border: 1px solid $osd_entry_border;
-    box-shadow: inset 0 2px 4px transparentize(black, 0.95);
+    box-shadow: inset 0 2px 4px transparentize(#1d2021, 0.95);
   }
 
   @if $t==osd-insensitive {
     color: transparentize($osd_fg_color, 0.45);
     background-color: transparentize($osd_entry_bg, 0.15);
     border: 1px solid $osd_entry_border;
-    box-shadow: inset 0 2px 4px transparentize(black, 0.95);
+    box-shadow: inset 0 2px 4px transparentize(#1d2021, 0.95);
   }
 }
 
@@ -136,7 +136,7 @@
     color: $osd_fg_color;
     border: 1px solid $osd_button_border;
     background-color: $osd_button_bg;
-    box-shadow: inset 0 1px transparentize(black, 0.95);
+    box-shadow: inset 0 1px transparentize(#1d2021, 0.95);
   }
 
   @else if $t==osd-hover {
@@ -146,7 +146,7 @@
     color: $osd_fg_color;
     border: 1px solid $osd_button_border;
     background-color: opacify(lighten($osd_button_bg, 7%), 0.1);
-    box-shadow: inset 0 1px transparentize(black, 0.95);
+    box-shadow: inset 0 1px transparentize(#1d2021, 0.95);
   }
 
   @else if $t==osd-active {
@@ -166,6 +166,6 @@
     color: $osd_insensitive_fg_color;
     border: 1px solid $osd_button_border;
     background-color: transparentize($osd_button_bg, 0.15);
-    box-shadow: inset 0 1px transparentize(black, 0.95);
+    box-shadow: inset 0 1px transparentize(#1d2021, 0.95);
   }
 }

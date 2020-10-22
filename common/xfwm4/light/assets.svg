@@ -24,7 +24,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         style="stop-color:#928374;stop-opacity:1;"
          offset="0"
          id="stop4407" />
     </linearGradient>
@@ -537,7 +537,7 @@
                    transform="translate(58,0)">
                   <path
                      inkscape:connector-curvature="0"
-                     style="opacity:1;fill:#7a7f8b;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                     style="opacity:1;fill:#ebdbb2;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                      d="m 172,58 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z m -3,3.921875 0.75,0 c 0.008,-9e-5 0.0156,-3.45e-4 0.0234,0 0.19121,0.0084 0.3824,0.09643 0.51562,0.234375 L 172,63.867188 173.73438,62.15625 c 0.19921,-0.172875 0.335,-0.229125 0.51562,-0.234375 l 0.75,0 0,0.75 c 0,0.214853 -0.0258,0.412987 -0.1875,0.5625 l -1.71094,1.710937 1.6875,1.6875 C 174.9302,66.77394 174.99999,66.9729 175,67.171875 l 0,0.75 -0.75,0 c -0.19898,-8e-6 -0.39794,-0.06982 -0.53906,-0.210937 L 172,66 l -1.71094,1.710938 c -0.14112,0.141142 -0.34009,0.210937 -0.53906,0.210937 l -0.75,0 0,-0.75 c 0,-0.198967 0.0698,-0.397935 0.21094,-0.539063 l 1.71094,-1.6875 -1.71094,-1.710937 C 169.05288,63.088403 168.98357,62.882438 169,62.671875 l 0,-0.75 z"
                      transform="translate(1204,190)"
                      id="path4068-7-5-9-6-8" />
@@ -642,7 +642,7 @@
               </g>
               <path
                  id="path4293-5-95"
-                 style="display:inline;opacity:1;fill:#7a7f8b;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 style="display:inline;opacity:1;fill:#ebdbb2;fill-opacity:1;fill-rule:evenodd;stroke:none"
                  d="m 1403.7995,252 3.3818,0 c 0.4503,0 0.8162,0.36847 0.8187,0.8188 l 0,3.3817 z m 2.4074,6.00692 -3.395,0 c -0.4504,0 -0.8188,-0.36842 -0.8188,-0.81875 l 0,-3.39509 4.2138,4.21384"
                  inkscape:connector-curvature="0"
                  sodipodi:nodetypes="csscccsscc" />
@@ -751,7 +751,7 @@
                      sodipodi:nodetypes="csscccsscc"
                      inkscape:connector-curvature="0"
                      d="m 87.799705,972 3.381737,0 c 0.450297,0 0.816227,0.36847 0.818758,0.8188 l 0,3.3817 z m 2.407413,6.00692 -3.395078,0 c -0.450346,0 -0.818758,-0.36842 -0.818758,-0.81875 l 0,-3.39509 4.213836,4.21384"
-                     style="opacity:1;fill:#7a7f8b;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                     style="opacity:1;fill:#ebdbb2;fill-opacity:1;fill-rule:evenodd;stroke:none"
                      id="path4293-6" />
                 </g>
               </g>
@@ -919,7 +919,7 @@
               </g>
               <path
                  id="path4293-5"
-                 style="display:inline;opacity:1;fill:#7a7f8b;fill-opacity:1;fill-rule:evenodd;stroke:none"
+                 style="display:inline;opacity:1;fill:#ebdbb2;fill-opacity:1;fill-rule:evenodd;stroke:none"
                  d="m 1403.7995,252 3.3818,0 c 0.4503,0 0.8162,0.36847 0.8187,0.8188 l 0,3.3817 z m 2.4074,6.00692 -3.395,0 c -0.4504,0 -0.8188,-0.36842 -0.8188,-0.81875 l 0,-3.39509 4.2138,4.21384"
                  inkscape:connector-curvature="0"
                  sodipodi:nodetypes="csscccsscc" />
@@ -976,7 +976,7 @@
                  inkscape:connector-curvature="0"
                  d="m 1373,254 0,2 6,0 0,-2 z"
                  id="rect9057-4-3"
-                 style="color:#1d2021;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#7a7f8b;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+                 style="color:#1d2021;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ebdbb2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
                  sodipodi:nodetypes="ccccc" />
             </g>
             <rect
@@ -1081,7 +1081,7 @@
                    id="layer12-45-6">
                   <path
                      sodipodi:nodetypes="ccccc"
-                     style="color:#1d2021;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#7a7f8b;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+                     style="color:#1d2021;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ebdbb2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
                      id="rect9057-8"
                      d="m 86.0002,974 0,2 6,0 0,-2 z"
                      inkscape:connector-curvature="0" />
@@ -1253,7 +1253,7 @@
                  inkscape:connector-curvature="0"
                  d="m 1373,254 0,2 6,0 0,-2 z"
                  id="rect9057-4"
-                 style="color:#1d2021;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#7a7f8b;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+                 style="color:#1d2021;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ebdbb2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
                  sodipodi:nodetypes="ccccc" />
             </g>
             <rect
@@ -1311,7 +1311,7 @@
          y="0"
          x="0" />
       <g
-         style="fill:#5294e2;fill-opacity:1"
+         style="fill:#928374;fill-opacity:1"
          transform="translate(25,2.9999812)"
          id="g5140-7">
         <rect
@@ -1406,7 +1406,7 @@
          y="0"
          x="0" />
       <g
-         style="fill:#5294e2;fill-opacity:1"
+         style="fill:#928374;fill-opacity:1"
          transform="translate(22.999996,-1.0000226)"
          id="g5193-7">
         <rect

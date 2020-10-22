@@ -18,7 +18,7 @@ UnityDecoration {
   -UnityDecoration-title-alignment: 0.0;
 
   &.top {
-    border: 1px solid if($variant=='dark' or $variant == 'darker', darken($header_bg, 7%), transparentize(black, 0.9));
+    border: 1px solid if($variant=='dark' or $variant == 'darker', darken($header_bg, 7%), transparentize(#1d2021, 0.9));
     border-bottom-width: 0;
     border-radius: 4px 4px 0 0;
     padding: 1px 6px 0 6px;
@@ -37,7 +37,7 @@ UnityDecoration {
   &.left, &.right, &.bottom,
   &.left:backdrop, &.right:backdrop, &.bottom:backdrop {
     background-color: transparent;
-    background-image: linear-gradient(to bottom, if($variant=='dark' or $variant == 'darker', darken($header_bg, 7%), transparentize(black, 0.9)));
+    background-image: linear-gradient(to bottom, if($variant=='dark' or $variant == 'darker', darken($header_bg, 7%), transparentize(#1d2021, 0.9)));
   }
 }
 
@@ -62,8 +62,8 @@ UnityPanelWidget,
 // Unity Greeter
 .lightdm.menu {
   background-image: none;
-  background-color: transparentize(black, 0.6);
-  border-color: transparentize(white, 0.2);
+  background-color: transparentize(#1d2021, 0.6);
+  border-color: transparentize(#f9f5d7, 0.2);
   border-radius: 4px;
   padding: 1px;
   color: #f9f5d7;
@@ -83,9 +83,9 @@ UnityPanelWidget,
 }
 
 .lightdm.menubar {
-  color: transparentize(white, 0.2);
+  color: transparentize(#f9f5d7, 0.2);
   background-image: none;
-  background-color: transparentize(black, 0.5);
+  background-color: transparentize(#1d2021, 0.5);
 
   & > .menuitem {
     padding: 2px 6px;
@@ -99,8 +99,8 @@ UnityPanelWidget,
 .lightdm.button,
 .lightdm.entry {
   background-image: none;
-  background-color: transparentize(black, 0.7);
-  border-color: transparentize(white, 0.6);
+  background-color: transparentize(#1d2021, 0.7);
+  border-color: transparentize(#f9f5d7, 0.6);
   border-radius: 10px;
   padding: 7px;
   color: #f9f5d7;
@@ -121,14 +121,14 @@ UnityPanelWidget,
 
 .lightdm.button:focused,
 .lightdm.entry:focused {
-  border-color: transparentize(white, 0.9);
+  border-color: transparentize(#f9f5d7, 0.9);
   border-width: 1px;
   border-style: solid;
   color: #f9f5d7;
 }
 
 .lightdm.entry:selected {
-  background-color: transparentize(white, 0.2);
+  background-color: transparentize(#f9f5d7, 0.2);
 }
 
 .lightdm.entry:active {
@@ -147,7 +147,7 @@ UnityPanelWidget,
   border-width: 0;
 
   &.selected {
-    background-color: transparentize(black, 0.3);
+    background-color: transparentize(#1d2021, 0.3);
     border-width: 1px;
   }
 }
