@@ -18,7 +18,7 @@ $link_visited_color: if($variant !='dark', darken($selected_bg_color,20%),
 
 $selection_mode_bg: if($transparency == 'true', transparentize($selected_bg_color, 0.05), $selected_bg_color);
 $selection_mode_fg: $selected_fg_color;
-$warning_color: #d65d0e;
+$warning_color: #cc241d;
 $error_color: #cc241d;
 $warning_fg_color: #f9f5d7;
 $error_fg_color: #f9f5d7;

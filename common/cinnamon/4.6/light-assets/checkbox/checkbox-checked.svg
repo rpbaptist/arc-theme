@@ -52,30 +52,30 @@
     <linearGradient
        id="linearGradient7694">
       <stop
-         style="stop-color:#0f0f0f;stop-opacity:1;"
+         style="stop-color:#1d2021;stop-opacity:1;"
          offset="0"
          id="stop7696" />
       <stop
          id="stop7698"
          offset="0.078125"
-         style="stop-color:#171717;stop-opacity:1;" />
+         style="stop-color:#1d2021;stop-opacity:1;" />
       <stop
-         style="stop-color:#171717;stop-opacity:1;"
+         style="stop-color:#1d2021;stop-opacity:1;"
          offset="0.97355771"
          id="stop7700" />
       <stop
-         style="stop-color:#1b1b1b;stop-opacity:1;"
+         style="stop-color:#1d2021;stop-opacity:1;"
          offset="1"
          id="stop7702" />
     </linearGradient>
     <linearGradient
        id="linearGradient3969-0-4-9">
       <stop
-         style="stop-color:#353537;stop-opacity:1;"
+         style="stop-color:#3c3836;stop-opacity:1;"
          offset="0"
          id="stop3971-2-2-7" />
       <stop
-         style="stop-color:#4d4f52;stop-opacity:1;"
+         style="stop-color:#504945;stop-opacity:1;"
          offset="1"
          id="stop3973-0-5-3" />
     </linearGradient>
@@ -222,7 +222,7 @@
           <g
              id="g3981-6-4"
              transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,729.95475,305.0582)"
-             style="opacity:0.85;fill:#1a1a1a;fill-opacity:1" />
+             style="opacity:0.85;fill:#1d2021;fill-opacity:1" />
           <g
              id="g4049-2"
              transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,727.94436,295.31123)">
