@@ -37,7 +37,7 @@ $font-size: 11;
 $_bubble_bg_color: opacify($osd_bg_color,0.25);
 $_bubble_fg_color: $osd_fg_color;
 $_bubble_borders_color: transparentize($osd_fg_color,0.8);
-$_shell_fg_color: white;
+$_shell_fg_color: #f9f5d7;
 $_panel_fg_color: if($variant=='lighter', $fg_color, $_shell_fg_color);
 
 $_popup_shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.19);
@@ -232,7 +232,7 @@ StScrollBar {
 //
 .headline { @include fontsize($font-size * 1.1); }
 .lightbox { background-color: black; }
-.flashspot { background-color: white; }
+.flashspot { background-color: #f9f5d7; }
 
 .modal-dialog {
   color: $fg_color;

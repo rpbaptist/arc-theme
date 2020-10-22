@@ -37,7 +37,7 @@ terminal-window,
 
 %nautilus_canvas_item,
 .nautilus-desktop.nautilus-canvas-item {
-  color: white;
+  color: #f9f5d7;
   text-shadow: 1px 1px transparentize(black, 0.4);
 
   &:active { color: $fg_color; }
@@ -854,7 +854,7 @@ panel-toplevel.background {
 //
 .panel {
   background-color: transparent;
-  color: white;
+  color: #f9f5d7;
   font-weight: bold;
   text-shadow: 0 1px 2px transparentize(black, 0.4);
   -gtk-icon-shadow: 0 1px 2px transparentize(black, 0.4);
@@ -895,7 +895,7 @@ panel-toplevel.background {
 
 .composited-indicator {
   background-color: transparent;
-  color: white;
+  color: #f9f5d7;
   text-shadow: 0 1px 2px transparentize(black, 0.4);
   -gtk-icon-shadow: 0 1px 2px transparentize(black, 0.4);
 

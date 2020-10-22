@@ -48,7 +48,6 @@ $darker_asset_suffix: if($variant=='darker', '-dark', $asset_suffix);
   outline-radius: 2px;
 }
 
-
 //
 // Base States
 //
@@ -91,7 +90,7 @@ $darker_asset_suffix: if($variant=='darker', '-dark', $asset_suffix);
   &:selected:hover {
     @extend %selected_items;
   }
-  &.dim-label { 
+  &.dim-label {
     color: transparentize($text_color, 0.45);
 
     &:selected, &:selected:focus {
@@ -1895,7 +1894,6 @@ $_scrollbar_bg_color: darken($base_color, 1%);
   &:dir(rtl) { border-image-slice: 0 1 0 0; }
 }
 
-
 //
 // Switches
 //
@@ -2212,7 +2210,6 @@ GtkLevelBar {
     }
   }
 }
-
 
 //
 // Frames
@@ -2568,7 +2565,6 @@ GtkInfoBar {
   color: $selected_fg_color;
 }
 
-
 //
 // Buttons on selected backgrounds
 //
@@ -2688,7 +2684,7 @@ GtkColorSwatch {
 
   // indicator and keynav outline colors, color-dark is a color with luminosity lower then 50%
   &.color-dark {
-    color: white;
+    color: #f9f5d7;
     outline-color: transparentize(black, 0.7);
   }
   &.color-light {

@@ -95,7 +95,7 @@ EelEditableLabel.entry { transition: none; }  // Workaround for invisible text i
 }
 
 .nautilus-desktop.nautilus-canvas-item {
-  color: white;
+  color: #f9f5d7;
   text-shadow: 1px 1px transparentize(black, 0.4);
 
   &:active { color: $fg_color; }
@@ -560,7 +560,7 @@ PanelApplet .button:hover {
 PanelApplet .button:active, PanelApplet .button:active:backdrop,
 PanelApplet .button:checked, PanelApplet .button:checked:backdrop {
   background-clip: padding-box;
-  color: white;
+  color: #f9f5d7;
   background-color: transparentize(black, 0.75);
   border-radius: 0;
   border-color: transparentize(black, 0.75);
@@ -568,7 +568,7 @@ PanelApplet .button:checked, PanelApplet .button:checked:backdrop {
 }
 
 PanelApplet:hover {
-  color: white;
+  color: #f9f5d7;
 }
 
 PanelApplet:active,
@@ -699,7 +699,7 @@ MarlinViewWindow {
 //
 .panel {
   background-color: transparent;
-  color: white;
+  color: #f9f5d7;
   font-weight: bold;
   text-shadow: 0 1px 2px transparentize(black, 0.4);
   icon-shadow: 0 1px 2px transparentize(black, 0.4);
@@ -739,7 +739,7 @@ MarlinViewWindow {
 
 .composited-indicator {
   background-color: transparent;
-  color: white;
+  color: #f9f5d7;
   text-shadow: 0 1px 2px transparentize(black, 0.4);
   icon-shadow: 0 1px 2px transparentize(black, 0.4);
 

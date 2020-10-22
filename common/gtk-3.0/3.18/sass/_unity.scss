@@ -66,20 +66,20 @@ UnityPanelWidget,
   border-color: transparentize(white, 0.2);
   border-radius: 4px;
   padding: 1px;
-  color: white;
+  color: #f9f5d7;
 }
 
 .lightdm-combo .menu {
   background-color: lighten($header_bg, 8);
   border-radius: 0px;
   padding: 0px;
-  color: white;
+  color: #f9f5d7;
 }
 
 .lightdm.menu .menuitem *,
 .lightdm.menu .menuitem.check:active,
 .lightdm.menu .menuitem.radio:active {
-  color: white;
+  color: #f9f5d7;
 }
 
 .lightdm.menubar {
@@ -103,7 +103,7 @@ UnityPanelWidget,
   border-color: transparentize(white, 0.6);
   border-radius: 10px;
   padding: 7px;
-  color: white;
+  color: #f9f5d7;
   text-shadow: none;
 }
 
@@ -124,7 +124,7 @@ UnityPanelWidget,
   border-color: transparentize(white, 0.9);
   border-width: 1px;
   border-style: solid;
-  color: white;
+  color: #f9f5d7;
 }
 
 .lightdm.entry:selected {

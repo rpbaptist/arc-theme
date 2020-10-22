@@ -8,7 +8,7 @@ $font-family: Futura Bk bt, sans, Sans-Serif;
 $_bubble_bg_color: opacify($osd_bg_color,0.25);
 $_bubble_fg_color: $osd_fg_color;
 $_bubble_borders_color: transparentize($osd_fg_color,0.8);
-$_shell_fg_color: white;
+$_shell_fg_color: #f9f5d7;
 
 stage {
   font-family: $font-family;
@@ -429,7 +429,7 @@ StScrollBar {
     -natural-hpadding: 3px;
     -minimum-hpadding: 3px;
     font-weight: bold;
-    color: white;
+    color: #f9f5d7;
 
     &:hover {}
   }
@@ -451,7 +451,7 @@ StScrollBar {
 }
 
 //
-// Overview 
+// Overview
 //
 #overview { spacing: 12px; }
 
@@ -638,9 +638,8 @@ StScrollBar {
   }
 }
 
-
 //
-// Calendar 
+// Calendar
 //
 .calendar {
   padding: .4em 1.75em;
@@ -917,7 +916,7 @@ StScrollBar {
 // Modal dialogs
 //
 .lightbox { background-color: rgba(0, 0, 0, 0.4); }
-.flashspot { background-color: white; }
+.flashspot { background-color: #f9f5d7; }
 
 .modal-dialog {
   color: $fg_color;
@@ -1094,7 +1093,7 @@ StScrollBar {
   &:active, &:checked { @include button(osd-active); }
 
   &:grayed { @include button(osd-insensitive); }
-}                             
+}
 
 .keyboard-subkeys { //long press on a key popup
   color: $osd_fg_color;
@@ -1109,7 +1108,7 @@ StScrollBar {
 }
 
 //
-// Cinnamon Specific Section 
+// Cinnamon Specific Section
 //
 
 //
@@ -1599,7 +1598,7 @@ StScrollBar {
 }
 
 //
-// Applets (applet.js) 
+// Applets (applet.js)
 //
 .applet {
   &-separator {
@@ -1649,9 +1648,9 @@ StScrollBar {
   &-label {
     font-weight: bold;
     color: $_shell_fg_color;
- 
+
     .applet-box:checked > &,
-    .applet-box:hover > &, 
+    .applet-box:hover > &,
     &:hover {
       color: $selected_fg_color;
       text-shadow: none;
@@ -1663,7 +1662,7 @@ StScrollBar {
     icon-size: 22px;
 
     .applet-box:checked > &,
-    .applet-box:hover > &, 
+    .applet-box:hover > &,
     &:hover {
       color: $selected_fg_color;
       text-shadow: none;
@@ -1691,7 +1690,7 @@ StScrollBar {
 }
 
 //
-// Desklets (desklet.js) 
+// Desklets (desklet.js)
 //
 .desklet {
   color: $osd_fg_color;
@@ -1730,7 +1729,7 @@ StScrollBar {
     padding: 12px;
     padding-bottom: 6px;
   }
-  &-drag-placeholder { 
+  &-drag-placeholder {
     border: 2px solid $selected_bg_color;
     background-color: transparentize($selected_bg_color, 0.7);
   }
