@@ -28,15 +28,15 @@ ARC_ENABLE([TRANSPARENCY],  [transparency],  [transparency],  [disable])
 ARC_ENABLE([PLANK],         [plank],         [Plank theme],   [disable])
 
 AS_IF([test "x$ENABLE_TRANSPARENCY" != xno], [
-    AC_SUBST([themedir], [${datadir}/themes/Arc])
-    AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Darker])
-    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Dark])
-    AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Lighter])
+    AC_SUBST([themedir], [${datadir}/themes/Arc-Gruvbox])
+    AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Gruvbox-Darker])
+    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Gruvbox-Dark])
+    AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Gruvbox-Lighter])
 ], [
-    AC_SUBST([themedir], [${datadir}/themes/Arc-solid])
-    AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Darker-solid])
-    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Dark-solid])
-    AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Lighter-solid])
+    AC_SUBST([themedir], [${datadir}/themes/Arc-Gruvbox-solid])
+    AC_SUBST([themedarkerdir], [${datadir}/themes/Arc-Gruvbox-Darker-solid])
+    AC_SUBST([themedarkdir], [${datadir}/themes/Arc-Gruvbox-Dark-solid])
+    AC_SUBST([themelighterdir], [${datadir}/themes/Arc-Gruvbox-Lighter-solid])
 ])
 
 AS_IF([test "x$ENABLE_GTK3" != xno], [ARC_GTK3])

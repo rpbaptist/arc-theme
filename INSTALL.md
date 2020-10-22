@@ -113,4 +113,4 @@ Run the following from the source code directory:
 
 Or simply remove the theme directories from your install location, e.g.
 
-    rm -rf ~/.local/share/themes/Arc{,-Dark,-Darker,-Lighter}{,-solid}
+    rm -rf ~/.local/share/themes/Arc-Gruvbox{,-Dark,-Darker,-Lighter}{,-solid}
