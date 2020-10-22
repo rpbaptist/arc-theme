@@ -17,8 +17,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="corner-ripple.svg">
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -79,7 +79,7 @@
        d="M 52,0 A 52,52 0 1 1 -52,0 52,52 0 1 1 52,0 Z"
        transform="translate(52,1000.3622)"
        id="path2991"
-       style="fill:url(#radialGradient3863);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#radialGradient3863);fill-opacity:1;fill-rule:evenodd;stroke:#1d2021;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

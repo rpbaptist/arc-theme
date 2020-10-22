@@ -16,8 +16,8 @@
    sodipodi:docname="key-layout.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -60,7 +60,7 @@
        id="linearGradient19282"
        gradientTransform="matrix(-2.7365795,0.28202934,-0.18908311,-0.99988321,239.54008,-879.45557)">
       <stop
-         style="stop-color:#666666;stop-opacity:1;"
+         style="stop-color:#928374;stop-opacity:1;"
          offset="0"
          id="stop19284" />
     </linearGradient>
@@ -75,15 +75,15 @@
        inkscape:connector-curvature="0"
        id="path3535"
        d="m -65,450 v 12"
-       style="display:inline;fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:inline;fill:#e5e5e5;fill-opacity:1;fill-rule:evenodd;stroke:#f9f5d7;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        sodipodi:nodetypes="ccccccccc"
        inkscape:connector-curvature="0"
        id="path3537"
        d="m -65,456 h 4 l 1,2 h 5 v -6 h -4 l -1,-2 h -5 z"
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#f9f5d7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;vector-effect:none;fill:#f9f5d7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m -65,456 h 4 l 1,2 h 5 v -6 h -4 l -1,-2 h -5 z"
        id="path3539"
        inkscape:connector-curvature="0"

@@ -23,7 +23,7 @@
        id="selected_fg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#f9f5d7;stop-opacity:1;"
          offset="0"
          id="stop4147" />
     </linearGradient>
@@ -56,8 +56,8 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -119,7 +119,7 @@
     <g
        transform="translate(0,-0.9999969)"
        id="g3917-7"
-       style="fill:#000000;fill-opacity:1;opacity:0.5" />
+       style="fill:#1d2021;fill-opacity:1;opacity:0.5" />
     <rect
        rx="2"
        style="opacity:1;fill:url(#linearGradient4146);fill-opacity:1;stroke:#102b68;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"

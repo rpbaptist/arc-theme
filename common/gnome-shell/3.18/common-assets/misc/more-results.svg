@@ -23,7 +23,7 @@
        id="selected_fg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#f9f5d7;stop-opacity:1;"
          offset="0"
          id="stop4150" />
     </linearGradient>
@@ -57,7 +57,7 @@
   <sodipodi:namedview
      id="base"
      pagecolor="#7a7a7a"
-     bordercolor="#666666"
+     bordercolor="#928374"
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
@@ -128,36 +128,36 @@
          id="g4179"
          transform="translate(141.99985,397.99107)">
         <g
-           style="opacity:0.55;fill:#000000;fill-opacity:1"
+           style="opacity:0.55;fill:#1d2021;fill-opacity:1"
            transform="matrix(0.765075,0,0,0.765075,1.8805941,0.87981267)"
            id="g2996-1">
           <g
-             style="fill:#000000;fill-opacity:1"
+             style="fill:#1d2021;fill-opacity:1"
              transform="translate(-60,-518)"
              id="layer12-1">
             <g
                transform="translate(19,-242)"
                id="layer4-4-1-9"
-               style="display:inline;fill:#000000;fill-opacity:1" />
+               style="display:inline;fill:#1d2021;fill-opacity:1" />
           </g>
         </g>
         <g
-           style="fill:#ffffff;fill-opacity:1"
+           style="fill:#f9f5d7;fill-opacity:1"
            transform="matrix(0.765075,0,0,0.765075,1.8805941,1.8794795)"
            id="g2996">
           <g
-             style="fill:#ffffff;fill-opacity:1"
+             style="fill:#f9f5d7;fill-opacity:1"
              transform="translate(-60,-518)"
              id="layer12">
             <g
                transform="translate(19,-242)"
                id="layer4-4-1"
-               style="display:inline;fill:#ffffff;fill-opacity:1" />
+               style="display:inline;fill:#f9f5d7;fill-opacity:1" />
           </g>
         </g>
       </g>
       <path
-         style="fill:url(#linearGradient4152);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         style="fill:url(#linearGradient4152);fill-opacity:1;fill-rule:evenodd;stroke:#1d2021;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
          d="m 148.99984,401.99107 0,3 -3,0 0,2 3,0 0,3 2,0 0,-3 3,0 0,-2 -3,0 0,-3 z"
          id="rect3757"
          inkscape:connector-curvature="0"

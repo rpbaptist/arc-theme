@@ -50,8 +50,8 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -103,7 +103,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccssss" />
     <path
-       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.08095236"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#1d2021;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.08095236"
        d="m 2.75,1020.8622 0.75,0 0,31 -0.75,0 c -1.2465002,0 -2.2500002,-0.6805 -2.2500002,-1.5259 l 0,-27.9482 c 0,-0.8454 1.0035,-1.5259 2.2500002,-1.5259 z"
        id="rect4162-5-7"
        inkscape:connector-curvature="0"

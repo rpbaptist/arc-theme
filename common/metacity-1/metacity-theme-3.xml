@@ -36,7 +36,7 @@
 <constant name="C_icon_bg_focused" value="gtk:custom(wm_icon_bg,#90949E)" />
 <constant name="C_icon_bg_unfocused" value="gtk:custom(wm_icon_unfocused_bg,#B6B8C0)" />
 <constant name="C_icon_bg_hover" value="gtk:custom(wm_icon_hover_bg,#7A7F8B)" />
-<constant name="C_icon_bg_active" value="gtk:custom(wm_icon_active_bg,#ffffff)" />
+<constant name="C_icon_bg_active" value="gtk:custom(wm_icon_active_bg,#f9f5d7)" />
 
 <!-- geometries -->
 
@@ -61,7 +61,7 @@
 	<distance name="right_width" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="2"/> <!-- 
+	<distance name="title_vertical_pad" value="2"/> <!--
 							This needs to be 1 less then the
 							title_vertical_pad on normal state
 							or you'll have bigger buttons		-->
@@ -185,7 +185,6 @@
 	<rectangle color="C_wm_bg_unfocused" x="0" y="0" width="width" height="height" filled="false" />
 </draw_ops>
 
-
 <!--close-->
 <draw_ops name="close_focused">
 	<image filename="button-bg.svg" colorize="C_button_close_bg_focused" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
@@ -278,7 +277,6 @@
 	<image filename="button-bg.svg" colorize="C_button_bg_active" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	<image filename="min-icon.svg" colorize="C_icon_bg_active" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 </draw_ops>
-
 
 <!--Todo-->
 <draw_ops name="menu_focused"></draw_ops>
@@ -1001,7 +999,6 @@
 	<frame focus="yes" state="maximized_and_shaded" style="blank"/>
 	<frame focus="no" state="maximized_and_shaded" style="blank"/>
 </frame_style_set>
-
 
 <!-- windows -->
 

@@ -143,7 +143,7 @@ StScrollBar {
   -barlevel-active-background-color: $selected_bg_color;        //active trough fill
   -barlevel-active-border-color: transparentize(black, 1);      //active trough border
   -barlevel-overdrive-color: $warning_color;
-  -barlevel-overdrive-border-color: transparentize(black, 1); 
+  -barlevel-overdrive-border-color: transparentize(black, 1);
   -barlevel-overdrive-separator-width: 1px;
   -barlevel-border-width: 0;
   -slider-handle-radius: 0px;
@@ -1462,7 +1462,6 @@ StScrollBar {
   }
 }
 
-
 //
 //Activities Ripples
 //
@@ -1478,7 +1477,6 @@ StScrollBar {
 // not really top bar only
 .popup-menu-arrow { width: 16px; height: 16px; }
 .popup-menu-icon { icon-size: 16px; }
-
 
 //
 //Close buttons
@@ -2227,7 +2225,7 @@ StScrollBar {
 
     &:active, &:checked { background-image: url("common-assets/key/key-layout-active.svg"); }
   }
-}                             
+}
 
 .keyboard-subkeys { //long press on a key popup
   color: $osd_fg_color;
@@ -2449,7 +2447,6 @@ StScrollBar {
   .notification { margin-right: 15px; } //compensate for space allocated to the scrollbar
 }
 
-
 .screen-shield-notification-label {
   font-weight: bold;
   padding: 0px 0px 0px 12px;
@@ -2554,7 +2551,7 @@ StScrollBar {
   border: 1px solid gray;
   padding: 4px;
   border-radius: 4px;
-  &:hover { border: 1px solid #ffffff; }
+  &:hover { border: 1px solid #f9f5d7; }
 }
 
 #lookingGlassExtensions { padding: 4px; }

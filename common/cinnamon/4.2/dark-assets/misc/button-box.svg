@@ -34,8 +34,8 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -89,7 +89,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssscc" />
     <rect
-       style="opacity:0.35;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.35;fill:#1d2021;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4137"
        width="22"
        height="1"

@@ -32,11 +32,11 @@
        inkscape:collect="always"
        id="linearGradient3762">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#f9f5d7;stop-opacity:1;"
          offset="0"
          id="stop3764" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
+         style="stop-color:#f9f5d7;stop-opacity:0;"
          offset="1"
          id="stop3766" />
     </linearGradient>
@@ -52,8 +52,8 @@
        gradientTransform="matrix(0,-1,1,0,0,54)" />
   </defs>
   <sodipodi:namedview
-     pagecolor="#000000"
-     bordercolor="#666666"
+     pagecolor="#1d2021"
+     bordercolor="#928374"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"

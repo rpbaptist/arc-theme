@@ -16,8 +16,8 @@
    sodipodi:docname="key-layout.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -60,7 +60,7 @@
        id="linearGradient19282"
        gradientTransform="matrix(-2.7365795,0.28202934,-0.18908311,-0.99988321,239.54008,-879.45557)">
       <stop
-         style="stop-color:#666666;stop-opacity:1;"
+         style="stop-color:#928374;stop-opacity:1;"
          offset="0"
          id="stop19284" />
     </linearGradient>

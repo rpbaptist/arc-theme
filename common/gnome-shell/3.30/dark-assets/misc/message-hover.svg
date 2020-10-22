@@ -40,8 +40,8 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
@@ -78,7 +78,7 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <rect
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:0.15294118;stroke:url(#selected_bg_color);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#1d2021;fill-opacity:0.15294118;stroke:url(#selected_bg_color);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4160"
        width="31"
        height="31.000017"

@@ -28,8 +28,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
+     pagecolor="#f9f5d7"
+     bordercolor="#928374"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -70,7 +70,7 @@
          width="150"
          opacity="0.2"
          fill-rule="evenodd"
-         color="#000000"
+         color="#1d2021"
          rx="42"
          id="rect8" />
     </clipPath>

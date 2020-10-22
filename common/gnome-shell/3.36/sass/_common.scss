@@ -163,7 +163,7 @@ StScrollBar {
   -barlevel-active-background-color: $selected_bg_color;        //active trough fill
   -barlevel-active-border-color: transparentize(black, 1);      //active trough border
   -barlevel-overdrive-color: $warning_color;
-  -barlevel-overdrive-border-color: transparentize(black, 1); 
+  -barlevel-overdrive-border-color: transparentize(black, 1);
   -barlevel-overdrive-separator-width: 1px;
   -barlevel-border-width: 0;
   -slider-handle-radius: 0px;
@@ -361,7 +361,6 @@ StScrollBar {
   }
 }
 
-
 //
 // End Session Dialog
 //
@@ -465,7 +464,7 @@ StScrollBar {
 //
 // Audio selection dialog
 //
-.audio-device-selection-dialog { 
+.audio-device-selection-dialog {
   .modal-dialog-content-box { padding-bottom: 28px; }
   .audio-selection-box { spacing: 20px; }
 }
@@ -1057,7 +1056,6 @@ StScrollBar {
   font-weight: bold;
 }
 
-
 /* today button (the date) */
 .datemenu-today-button {
   @include datemenu_bubble;
@@ -1472,7 +1470,6 @@ StScrollBar {
   }
 }
 
-
 //
 // Activities Ripples
 //
@@ -1502,7 +1499,6 @@ StScrollBar {
 // not really top bar only
 .popup-menu-arrow { icon-size: 16px; }
 .popup-menu-icon { icon-size: 16px; }
-
 
 //
 // Close buttons
@@ -2358,7 +2354,7 @@ StScrollBar {
   }
 
   StIcon { icon-size: 1.125em; }
-}                             
+}
 
 .keyboard-subkeys { //long press on a key popup
   color: $osd_fg_color;
@@ -2756,7 +2752,7 @@ StScrollBar {
   border: 1px solid gray;
   padding: 4px;
   border-radius: 4px;
-  &:hover { border: 1px solid #ffffff; }
+  &:hover { border: 1px solid #f9f5d7; }
 }
 
 #lookingGlassExtensions { padding: 4px; }

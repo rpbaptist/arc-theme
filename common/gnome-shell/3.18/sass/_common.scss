@@ -1295,17 +1295,17 @@ StScrollBar {
     > StIcon {
       icon-size: 18px;
       border-radius: 0px;
-      color: transparent; 
+      color: transparent;
       background-color: transparent;
       background-image: url('#{$asset_path}/misc/message-close.svg');
     }
     &:hover > StIcon {
-      color: transparent; 
+      color: transparent;
       background-color: transparent;
       background-image: url('#{$asset_path}/misc/message-close-hover.svg');
     }
     &:active > StIcon {
-      color: transparent; 
+      color: transparent;
       background-color: transparent;
       background-image: url('#{$asset_path}/misc/message-close-active.svg');
     }
@@ -1381,7 +1381,6 @@ StScrollBar {
   }
 }
 
-
 //
 //Activities Ripples
 //
@@ -1397,7 +1396,6 @@ StScrollBar {
 // not really top bar only
 .popup-menu-arrow { width: 16px; height: 16px; }
 .popup-menu-icon { icon-size: 16px; }
-
 
 //
 //Close buttons
@@ -2095,7 +2093,7 @@ $legacy_icon_size: 24px;
   &:active, &:checked { @include button(osd-active); }
 
   &:grayed { @include button(osd-insensitive); }
-}                             
+}
 
 .keyboard-subkeys { //long press on a key popup
   color: $osd_fg_color;
@@ -2318,7 +2316,6 @@ $legacy_icon_size: 24px;
   .notification { margin-right: 15px; } //compensate for space allocated to the scrollbar
 }
 
-
 .screen-shield-notification-label {
   font-weight: bold;
   padding: 0px 0px 0px 12px;
@@ -2423,7 +2420,7 @@ $legacy_icon_size: 24px;
   border: 1px solid gray;
   padding: 4px;
   border-radius: 4px;
-  &:hover { border: 1px solid #ffffff; }
+  &:hover { border: 1px solid #f9f5d7; }
 }
 
 #lookingGlassExtensions { padding: 4px; }
