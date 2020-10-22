@@ -1155,7 +1155,7 @@ StScrollBar {
       @extend %button_hover;
     }
     &-hover {
-      background-color: red;
+      background-color: #cc241d;
       border-radius: 2px;
     }
     &-greyed {

@@ -711,7 +711,7 @@ $_dot_color: $selected_bg_color;
     box-shadow: none;
 
     &:dir(rtl) { border-style: none solid none none; }
-    &:first-child { color: red; }
+    &:first-child { color: #cc241d; }
 
     &:insensitive {
       color: $insensitive_fg_color;

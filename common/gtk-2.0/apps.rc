@@ -7,11 +7,10 @@ style "dark-sidebar" {
   GtkTreeView::odd_row_color = @dark_sidebar_bg
   GtkTreeView::even_row_color = @dark_sidebar_bg
 
-
   base[NORMAL] = @dark_sidebar_bg
   base[INSENSITIVE] = @dark_sidebar_bg
 
-  text[NORMAL] = "#BAC3CF"
+  text[NORMAL] = "#ebdbb2"
   text[ACTIVE] = @selected_fg_color
   text[SELECTED] = @selected_fg_color
 }
@@ -136,7 +135,6 @@ style "combobox_entry_border" = "combobox_entry" {
     }
   }
 }
-
 
 # Mousepad search entry
 widget_class "*MousepadSearchBar*.<GtkEntry>"         style "entry_border"

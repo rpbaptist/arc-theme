@@ -13,19 +13,19 @@
 <constant name="C_title_focused" value="#70788d" />
 <constant name="C_title_unfocused" value="#979dac" />
 
-<constant name="C_wm_bg_focused" value="#e7e8eb" />
-<constant name="C_wm_bg_unfocused" value="#e7e8eb" />
+<constant name="C_wm_bg_focused" value="#fbf1c7" />
+<constant name="C_wm_bg_unfocused" value="#fbf1c7" />
 
 <constant name="C_wm_highlight" value="#eeeff1" />
 
 <!-- window button colors -->
 
 <!-- close -->
-<constant name="C_button_close_bg_focused" value="#f46067" />
+<constant name="C_button_close_bg_focused" value="#cc241d" />
 <constant name="C_button_close_bg_hover" value="#f68086" />
 <constant name="C_button_close_bg_active" value="#f13039" />
 
-<constant name="C_icon_close_bg" value="#F8F8F9" />
+<constant name="C_icon_close_bg" value="#fbf1c7" />
 
 <!-- minimize, maximize -->
 <constant name="C_button_bg_hover" value="#fdfdfd" />
@@ -61,7 +61,7 @@
 	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="0"/>
 	<distance name="right_titlebar_edge" value="0"/>
-	<distance name="title_vertical_pad" value="2"/> <!-- 
+	<distance name="title_vertical_pad" value="2"/> <!--
 							This needs to be 1 less then the
 							title_vertical_pad on normal state
 							or you'll have bigger buttons		-->
@@ -145,7 +145,6 @@
 <draw_ops name="border_unfocused">
 	<rectangle color="C_wm_bg_unfocused" x="0" y="0" width="width" height="height" filled="false" />
 </draw_ops>
-
 
 <!--close-->
 <draw_ops name="close_focused">
@@ -239,7 +238,6 @@
 	<image filename="button-bg.svg" colorize="C_button_bg_active" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	<image filename="min-icon.svg" colorize="C_icon_bg_active" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 </draw_ops>
-
 
 <!--Todo-->
 <draw_ops name="menu_focused"></draw_ops>
@@ -748,7 +746,6 @@
 	<frame focus="yes" state="maximized_and_shaded" style="blank"/>
 	<frame focus="no" state="maximized_and_shaded" style="blank"/>
 </frame_style_set>
-
 
 <!-- windows -->
 
